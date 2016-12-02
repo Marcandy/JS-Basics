@@ -45,7 +45,7 @@ var name = 'Tyler';
 //Arguments are passed when a function is being invoked while parameter when a function is being defined;
 
 //////////////////PROBLEM 5////////////////////
-
+//to check with an if statement and  === sign operator or !== or if(val) --- anything other the faley will evaluate to true
 
 
 //What are all the falsy values in JavaScript and how do you check if something is falsy?
