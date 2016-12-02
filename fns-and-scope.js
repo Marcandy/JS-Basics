@@ -42,7 +42,7 @@ var name = 'Tyler';
 //What is the difference between arguments and parameters?
 
   //Answer Here
-
+//Arguments are passed when a function is being invoked while parameter when a function is being defined;
 
 //////////////////PROBLEM 5////////////////////
 
