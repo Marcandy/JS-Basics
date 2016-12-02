@@ -5,14 +5,7 @@ var name = 'Tyler';
 //If the argument you passed in is equal to 'Tyler', return true. If it's not, return false.
 
   //Code Here
-function isTyler(name) {
-  if (name === 'Tyler') {
-    return true;
-    }
-    else {
-      return false;
-    }
-}
+
 //////////////////PROBLEM 2////////////////////
 
 
@@ -20,9 +13,7 @@ function isTyler(name) {
 
 
   //Code Here
-function getName(name) {
-  return prompt(name);
-}
+
 
 //////////////////PROBLEM 3////////////////////
 
@@ -32,9 +23,7 @@ function getName(name) {
 //then alerts "Welcome, " plus whatever the users name is.
 
   //Code Here
-function welcome() {
- alert('Welcome, ' + getName());
-}
+
 
 //////////////////PROBLEM 4////////////////////
 
@@ -43,7 +32,7 @@ function welcome() {
 
 //What is the difference between arguments and parameters?
 
-  //Answer Here Paramerters are what's pased to the function. Arguments are the actual values that passed when a function is called.
+  //Answer Here
 
 
 //////////////////PROBLEM 5////////////////////
@@ -54,9 +43,7 @@ function welcome() {
 
 
   //Answer Here
-  //All the falsy in javascript are : Null, NaN, undefined, "", 0, false
-  //you check some is false by just putting the exclamation bar with
-  //the value like that: if(!val)
+
 
 
 //////////////////PROBLEM 6////////////////////
@@ -66,17 +53,15 @@ function welcome() {
 //Create a function called myName that returns your name
 
   //Code Here
-function myName(name) {
-  return "Marc";
-}
+  
 
 
 //Now save the function definition of myName into a new variable called newMyName
 
   //Code Here
-var newMyName = myName;
+
 //Now alert the result of invoking newMyName
-alert(newMyName);
+
 
 
 //////////////////PROBLEM 7////////////////////
@@ -86,14 +71,9 @@ alert(newMyName);
 //Create a function called outerFn which returns an anonymous function which returns your name.
 
   //Code Here
-function outerFn() {
-  return function () {
-    return "Marc";
-  };
-}
+
 //Now save the result of invoking outerFn into a variable called innerFn.
 
   //Code Here
-var innerFn = outerFn();
+
 //Now invoke innerFn.
-innerFn();
