@@ -70,6 +70,7 @@ var name = 'Tyler';
 //Now save the function definition of myName into a new variable called newMyName
 
   //Code Here
+  var newMyName = myName;
 
 //Now alert the result of invoking newMyName
 
