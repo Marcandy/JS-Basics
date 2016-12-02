@@ -62,6 +62,9 @@ var name = 'Tyler';
 //Create a function called myName that returns your name
 
   //Code Here
+  function myName() {
+    return "Marc";
+  }
 
 
 //Now save the function definition of myName into a new variable called newMyName
