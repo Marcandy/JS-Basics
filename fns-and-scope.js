@@ -73,7 +73,7 @@ var name = 'Tyler';
   var newMyName = myName;
 
 //Now alert the result of invoking newMyName
-
+alert(newMyName());
 
 
 //////////////////PROBLEM 7////////////////////
